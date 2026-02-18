@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: stage-nginx-namespace
+  namespace: lab2-prune
   labels:
     app: nginx
     company: devseccops
